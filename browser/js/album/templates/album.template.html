@@ -12,7 +12,8 @@
         <th>Genres</th>
       </tr>
     </thead>
-    <tbody>
+    <album></album>
+    <!-- <tbody>
       <tr ng-repeat="song in album.songs" ng-class="{active: song === getCurrentSong() }">
         <td>
           <button class="btn btn-default btn-xs" ng-click="toggle(song)">
@@ -23,6 +24,6 @@
         <td><span ng-repeat="artist in song.artists">{{ artist.name }}{{ $last ? '' : ', ' }}</span></td>
         <td>{{ song.genres.join(', ') }}</td>
       </tr>
-    </tbody>
+    </tbody> -->
   </table>
 </div>
